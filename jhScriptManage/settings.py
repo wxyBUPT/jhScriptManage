@@ -14,6 +14,9 @@ https://docs.djangoproject.com/en/1.8/ref/settings/
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MEDIA_ROOT=os.path.join(BASE_DIR,'')
+print MEDIA_ROOT
+MEDIA_URL='http://127.0.0.1:8000/jhScriptManage/'
 
 
 # Quick-start development settings - unsuitable for production
